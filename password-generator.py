@@ -1,1 +1,1 @@
-a = ['papas']
+b = ['frutas']
