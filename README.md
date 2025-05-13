@@ -5,7 +5,7 @@
 **Descripción:** Crea una clase `Rectangulo` con atributos `base` y `altura`, y un método `area` que calcule el área.
 
 **Input:**
-```
+```python
 r = Rectangulo(5, 3)
 print(r.area())
 ```
@@ -155,9 +155,10 @@ Descripción: Crea una función que combine dos diccionarios.
 print(fusionar_diccionarios({'a': 1}, {'b': 2}))
 **Output esperado:**
 
-arduino
 
+```
 {'a': 1, 'b': 2}
+```
 ## 12. Contar palabras únicas con un diccionario
 Descripción: Escribe una función que cuente las palabras únicas de una frase.
 
@@ -189,7 +190,7 @@ Descripción: Devuelve los elementos impares de una tupla.
 
 **Input:**
 
-```
+```python
 print(filtrar_impares((1, 2, 3, 4)))
 ```
 **Output esperado:**
@@ -247,7 +248,8 @@ Descripción: Genera los primeros n números primos.
 **Input:**
 
 ```python
-for p in primos(5): print(p)
+for p in primos(5): 
+  print(p)
 ```
 **Output esperado:**
 
@@ -293,7 +295,7 @@ Descripción: Escribe una función que revierta un string sin usar slicing.
 
 **Input:**
 
-```
+```python
 print(revertir('python'))
 ```
 **Output esperado:**
@@ -347,10 +349,10 @@ Descripción: Clase que mantiene un conteo de instancias con una variable de cla
 
 **Input:**
 
-```
+```python
 a = Instancia()
 b = Instancia()
-prixt(Instancia.contador)
+print(Instancia.contador)
 ```
 **Output esperado:**
 
@@ -434,3 +436,66 @@ print(d)
 
 {'clave': [1, 2]}
 ```
+## 31. Crear un set a partir de una lista
+Descripción: Convierte una lista en un set.
+**Input:**
+
+```python
+print(lista_a_set([1, 2, 2, 3]))
+```
+**Output esperado:**
+
+```
+{1, 2, 3}
+```
+## 32. Crear un diccionario a partir de dos listas
+Descripción: Crea un diccionario a partir de dos listas.
+**Input:**
+
+```python
+print(listas_a_diccionario(['a', 'b'], [1, 2]))
+```
+**Output esperado:**
+
+```
+{'a': 1, 'b': 2}
+```
+## 33. Crear un set a partir de un string
+Descripción: Convierte un string en un set de caracteres únicos.
+**Input:**
+
+```python
+print(string_a_set('python'))
+```
+**Output esperado:**
+
+```
+{'p', 'y', 't', 'h', 'o', 'n'}
+```
+
+## 34. Crear un diccionario a partir de un string
+Descripción: Crea un diccionario que cuente la frecuencia de cada carácter en un string.
+**Input:**
+
+```python
+print(string_a_diccionario('python'))
+```
+**Output esperado:**
+
+```
+{'p': 0, 'y': 1, 't': 2, 'h': 3, 'o': 4, 'n': 5}
+```
+
+## 35. Crear un set a partir de un diccionario
+Descripción: Convierte un diccionario en un set de claves.
+**Input:**
+
+```python
+print(diccionario_a_set({'a': 1, 'b': 2}))
+```
+**Output esperado:**
+
+```
+{'a', 'b'}
+```
+
