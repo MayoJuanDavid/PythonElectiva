@@ -151,8 +151,9 @@ Descripción: Crea una función que combine dos diccionarios.
 
 **Input:**
 
-
+```python
 print(fusionar_diccionarios({'a': 1}, {'b': 2}))
+```
 **Output esperado:**
 
 
@@ -417,8 +418,9 @@ print(reemplazar('Hola mundo', {'Hola': 'Adiós'}))
 ```
 **Output esperado:**
 
-
+```
 Adiós mundo
+```
 ## 30. Diccionario con listas como valores
 Descripción: Agrega valores a un diccionario de listas.
 
@@ -433,7 +435,6 @@ print(d)
 **Output esperado:**
 
 ```bash
-
 {'clave': [1, 2]}
 ```
 ## 31. Crear un set a partir de una lista
@@ -498,4 +499,3 @@ print(diccionario_a_set({'a': 1, 'b': 2}))
 ```
 {'a', 'b'}
 ```
-
