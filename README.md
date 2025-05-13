@@ -366,7 +366,8 @@ Descripción: Genera los primeros n números de Fibonacci.
 **Input:**
 
 ```python
-for n in fibonacci(6): print(n)
+for n in fibonacci(6): 
+    print(n)
 ```
 **Output esperado:**
 
@@ -385,7 +386,8 @@ Descripción: Crea un decorador que ejecute una función n veces.
 
 ```python
 @repetir(3)
-def hola(): print("Hola")
+def hola(): 
+  print("Hola")
 
 hola()
 ```
